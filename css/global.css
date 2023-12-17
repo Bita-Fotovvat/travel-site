@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    padding: 1rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parent-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.logo .logo-link {
+    color: #335576;
+    text-decoration: none;
+}
+
+.nav-links__ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links__li a{
+    color: black;
+    margin-right: 20px;
+}
+
+.nav-links__li a {
+    text-decoration: none;
+}
+
+.nav-links__li a.active {
+    border-bottom: #DB7A4E 2px solid;
+    padding-bottom: 0.5rem;
+    border-bottom-width: 4px;
+}
+
+
+
+.footer{
+    background-color: #FEFAF5;
+    padding: 2rem;
+}
+.footer-parent{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: flex-start;
+}
+.footer-hours__details{
+    display: flex;
+}
+
+.footer-hours__details1, .footer-hours__details2, .footer-hours__details3{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-right: 0;
+    margin-left: 0;
+} 
+.footer__subheading{
+    text-align: left;
+    color:  #DB7A4E;
+    font-size: 0.6rem;
+    font-weight: 100;
+
+}
+.footer__p, .footer__p1, .footer__p2, .footer__p3{
+    color: #335576;
+    font-size: 1rem;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.footer__p1{
+    padding: 0;
+    margin-left: 0;
+    margin-right: 5%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.footer__p2{
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.footer__p3{
+    padding: 0;
+    margin-right: 0;
+    margin-left: 5%;
+}
+
+
+
+.footer__heading{
+    text-align: left;
+    border: 0;
+    margin: 0;
+    margin-bottom: 2rem;
+    color: #335576;
+}
+
+.social__img1{
+    width: 15%;
+    margin: 5%;
+}
+.social__img2{
+    width: 7%;
+    margin: 5%;
+}
+.social__img3{
+    width: 15%;
+    margin: 5%;
+}
+
+.footer-social{
+    margin-top: 0;
+}
+
+.footer__heading--contacts, .footer__heading--hours, .footer__heading--social{
+    color: #335576;
+}
