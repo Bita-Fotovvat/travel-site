@@ -21,17 +21,9 @@
 .hero-content{
     display: flex;
     justify-content:space-evenly;
-
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 7rem;
-
-
-}
-
-.hero-content__text{
-    margin-right: 7;
-
 }
 
 .hero-heading, .hero-text{
