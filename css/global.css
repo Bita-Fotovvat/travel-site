@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     padding: 0;
@@ -6,17 +8,22 @@ body {
 
 .navbar {
     background-color: #FFFFFF;
-    padding: 1rem 6rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    position: fixed !important;
+    z-index: 999;
+    top: 0 !important;
+    right: 0 !important;
+    left: 0;
+    width: 100%;
 }
-
 .parent-div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    padding: 1rem 6rem;
+}
+
+main{
+    margin-top: 5.2rem;
 }
 
 .logo {
@@ -36,10 +43,7 @@ body {
 
 .nav-links__li a{
     color: black;
-    margin-right: 20px;
-}
-
-.nav-links__li a {
+    margin-right: 1.25rem;
     text-decoration: none;
 }
 
@@ -48,8 +52,6 @@ body {
     padding-bottom: 0.5rem;
     border-bottom-width: 4px;
 }
-
-
 
 .footer{
     background-color: #FEFAF5;
@@ -60,8 +62,10 @@ body {
     justify-content:space-evenly;
     align-items: flex-start;
 }
+
 .footer-hours__details{
     display: flex;
+    gap: 1.25rem;
 }
 
 .footer-hours__details1, .footer-hours__details2, .footer-hours__details3{
@@ -87,14 +91,14 @@ body {
 .footer__p1{
     padding: 0;
     margin-left: 0;
-    margin-right: 5%;
+    margin-right: 0;
     overflow: hidden;
     white-space: nowrap;
 }
 .footer__p2{
     padding: 0;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 0;
+    margin-right: 0;
 }
 .footer__p3{
     padding: 0;
@@ -102,13 +106,10 @@ body {
     margin-left: 5%;
 }
 
-
-
 .footer__heading{
     text-align: left;
     border: 0;
-    margin: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem 0;
     color: #335576;
 }
 
